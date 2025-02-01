@@ -1,0 +1,63 @@
+body {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+
+    
+}
+
+header {
+    position: relative;
+    padding: 100px 20px;
+    text-align: center;
+    background: url('https://wallpapercave.com/uwp/uwp4229674.jpeg') no-repeat center center/cover;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px #ff00ff;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-shadow: 2px 2px 5px #00ccff;
+}
+
+nav {
+    background-color: #121212;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00ccff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #ff00ff;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
